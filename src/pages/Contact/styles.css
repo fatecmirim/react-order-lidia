@@ -1,0 +1,49 @@
+.contact-container {
+    width: 97%;
+    padding: 0 30px;
+    margin-right: 6px auto;
+    margin-left: 6px auto;
+    margin-top: 40px;
+  }
+  
+  
+  .contact-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    list-style: none;
+    align-content: center;
+  }
+  
+  .contact-container ul li {
+    background: #fff;
+    padding: 14px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  
+  .contact-container ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+    text-align: center;
+  }
+  
+  .contact-container ul li p + strong {
+    margin-top: 12px;
+  }
+
+  .contact-container ul li img{
+    height: 75%;
+    width: 100%;
+  }
+  
+  
+  .contact-container ul li p {
+    color: #737380;
+    line-height: 11px;
+    font-size: 16px;
+    text-align: center;
+  }
+  

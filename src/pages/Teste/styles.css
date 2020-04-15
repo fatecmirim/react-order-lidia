@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.sticky
+{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30px;
+  font: 90px 'Abril Fatface', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.block-1, .block-3
+{
+  height: 400px;
+  padding: 70px 20px;
+  background-size: cover;
+  background-image: url('https://image.freepik.com/fotos-gratis/mesa-de-plataforma-de-madeira-vazia-sobre-fundo-de-papel-de-parede-amarelo_1421-1564.jpg');
+  box-sizing: border-box;
+  background-position: center;
+}
+.block-2
+{
+  background: url('https://image.freepik.com/fotos-gratis/toalha-de-mesa_127657-12720.jpg') no-repeat fixed;
+  background-size: cover;
+  height: 900px;
+  background-position: center;
+}
+.block-3
+{
+  background-image: url('https://image.freepik.com/fotos-gratis/mesa-de-plataforma-de-madeira-vazia-sobre-fundo-de-papel-de-parede-amarelo_1421-1564.jpg');
+}
+
+.text p{
+    text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
+    margin-top: 60px;
+}
